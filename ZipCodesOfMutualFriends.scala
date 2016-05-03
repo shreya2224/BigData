@@ -3,7 +3,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark._
 
 
-object Assignment_ans3 
+object ZipCodesOfMutualFriends 
 {
 def main(args: Array[String])
   {
@@ -15,8 +15,8 @@ def main(args: Array[String])
       val conf = new SparkConf().setAppName("Recommend friends").setMaster("local") 
       val sc = new SparkContext(conf)
   
-  val input = sc.textFile("hdfs://cshadoop1/socNetData/networkdata/soc-LiveJournal1Adj.txt")
-    val input2 = sc.textFile("hdfs://cshadoop1/socNetData/userdata/userdata.txt")
+  val input = sc.textFile("hdfs://cshadoop1/socNetData/networkdata/LivJrnl.txt")
+    val input2 = sc.textFile("hdfs://cshadoop1/socNetData/userdata/users.txt")
     
     //val zipcodes = input2.map(line => line.split(",")(2)).collect()
     //val names = input2.map(line => line.split(",")(1)).collect()
