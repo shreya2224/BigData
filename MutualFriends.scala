@@ -3,7 +3,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark._
 
 
-object Assignment_ans2
+object MutualFriends
 {
   def main(args: Array[String])
   {
