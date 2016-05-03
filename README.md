@@ -6,22 +6,9 @@ ZipCodesOfMutualFriends.scala - Input is any two users. Output is names and zip 
 
 Data Description:
 
-users.txt - 
+users.txt -  userid,firstname,lastname,address,city,state,zipcode,country,username,date of birth
 
-column1 : userid
-column2 : firstname
-column3 : lastname
-column4 : address
-column5: city
-column6 :state
-column7 : zipcode
-column8 :country
-column9 :username
-column10 : date of birth
-
-LivJrnl.txt - 
-
-<User><TAB><Friends>
+LivJrnl.txt - <User><TAB><Friends>
 
 
 
