@@ -6,7 +6,7 @@ ZipCodesOfMutualFriends.scala - Input is any two users. Output is names and zip 
 
 Data Description:
 
-userdata.txt - 
+users.txt - 
 
 column1 : userid
 column2 : firstname
@@ -19,7 +19,7 @@ column8 :country
 column9 :username
 column10 : date of birth
 
-soc-LiveJournal1Adj.txt - 
+LivJrnl.txt - 
 
 <User><TAB><Friends>
 
