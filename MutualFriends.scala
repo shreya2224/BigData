@@ -13,7 +13,7 @@ object Assignment_ans2
      
       val conf = new SparkConf().setAppName("Recommend friends").setMaster("local") 
       val sc = new SparkContext(conf)
-    val input = sc.textFile("hdfs://cshadoop1/socNetData/networkdata/soc-LiveJournal1Adj.txt")
+    val input = sc.textFile("hdfs://cshadoop1/socNetData/networkdata/LivJrnl.txt")
    
     val user1 = readLine("Enter user1")
     val user2 = readLine("Enter user2")
